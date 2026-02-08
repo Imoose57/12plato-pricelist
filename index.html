@@ -593,11 +593,11 @@
             <div class="subsection-header">Non-Alcohol</div>
             <div id="nonAlcoholProducts"></div>
 
-            <div class="subsection-header">Flavored Lagers</div>
-            <div id="flavoredLagerProducts"></div>
+            <div class="subsection-header"> infused Lagers</div>
+            <div id=" infusedLagerProducts"></div>
 
-            <div class="subsection-header">Flavored Stouts</div>
-            <div id="flavoredStoutProducts"></div>
+            <div class="subsection-header"> infused Stouts</div>
+            <div id=" infusedStoutProducts"></div>
 
             <div class="subsection-header">TEA Series</div>
             <div id="teaProducts"></div>
@@ -669,11 +669,11 @@
                 {name: "Stout", abv: "<0.5", profile: "Non alcohol version of stout", style: "NON ALC", price: 5300, color: "teal"},
                 {name: "Fruity", abv: "<0.5", profile: "Non alcohol version of fruit beer", style: "NON ALC", price: 5300, color: "amber"}
             ],
-            flavoredLager: [
+             infusedLager: [
                 {name: "Jasmine Lager", abv: "5.0", profile: "Floral jasmine, clean lager base", style: "LAGER", price: 5300, color: "blue"},
                 {name: "Yuzu Lager", abv: "5.0", profile: "Bright yuzu citrus, crisp finish", style: "LAGER", price: 5300, color: "red"}
             ],
-            flavoredStout: [
+             infusedStout: [
                 {name: "Banana Caramel Stout", abv: "6.3", profile: "Ripe banana, caramel sweetness", style: "STOUT", price: 5800, color: "teal"},
                 {name: "Chocolate MILK Stout", abv: "6.3", profile: "Sweet chocolate, creamy body", style: "STOUT", price: 5800, color: "amber"},
                 {name: "Coffee Stout", abv: "6.3", profile: "Roasted coffee, bitter-smooth", style: "STOUT", price: 5800, color: "blue"},
@@ -812,8 +812,8 @@
         document.addEventListener('DOMContentLoaded', function() {
             currentNum = renderProducts('yearRoundProducts', products.yearRound, currentNum);
             currentNum = renderProducts('nonAlcoholProducts', products.nonAlcohol, currentNum);
-            currentNum = renderProducts('flavoredLagerProducts', products.flavoredLager, currentNum);
-            currentNum = renderProducts('flavoredStoutProducts', products.flavoredStout, currentNum);
+            currentNum = renderProducts(' infusedLagerProducts', products. infusedLager, currentNum);
+            currentNum = renderProducts(' infusedStoutProducts', products. infusedStout, currentNum);
             currentNum = renderProducts('teaProducts', products.tea, currentNum);
             currentNum = renderProducts('ciderProducts', products.cider, currentNum);
             
